@@ -99,5 +99,10 @@ def task11(filename="infile.csv"):
 	print(df3)
 
 def task12(filename="video-games.csv"):
-    # TODO: ...
+    import pandas as pd
+	import numpy as np
+	f = pd.read_csv("video-games.csv")
+	n_games = f.shape[0]
+	print(n_games)
+	
 
